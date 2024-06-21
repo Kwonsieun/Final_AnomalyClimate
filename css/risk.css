@@ -1,0 +1,31 @@
+
+
+.riwinter{
+    margin: 50px auto 30px;
+    justify-content: center;
+    align-items: center;
+    /* 사진이 왜 가운데로 오지 않을까....... */
+}
+.riwinter img {
+    width: 100%;
+}
+
+/* .riwin{
+    margin-bottom: 200px;
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.riwin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.riwin p {
+    margin-bottom: 200px;
+    width: 1240px;
+}
+

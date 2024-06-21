@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: black;
+}

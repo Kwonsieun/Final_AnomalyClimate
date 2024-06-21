@@ -1,0 +1,437 @@
+
+
+#mainContainer{
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: rgb(204, 21, 21);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 1420px;
+    z-index: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: 1420px;
+    border-top: 2px solid rgb(91, 91, 91);
+    display: flex;
+    flex-direction: row;
+    margin: 70px auto 10px
+}
+
+.footer-cont {
+    display: flex;    
+    width: 1420px;
+    justify-content: space-between;
+}
+
+
+
+
+/* footer p{
+    float: right;
+} */
+
+.title h1 {
+    font-size: 20px;
+    color: white;
+    align-items: center;
+
+}
+
+.title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    /* height: 45px; */
+    /* border-bottom: 1px solid rgb(186, 186, 186); */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    z-index: 2;
+}
+
+#menu .logo {width: 283px; display: flex; align-items: center; padding-top: 3px;}
+#menu .logo img {width: 100%;}
+
+
+#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+#menu ul li {
+    list-style: none;
+    user-select: none;
+    /* padding: 12px 20px; */
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul li:hover {
+    color: rgb(204, 21, 21);
+}
+
+#menu ul.active {
+    background-color: rgb(204, 21, 21);
+    color: white;
+}
+
+
+/* 추가된 메뉴리스트 액티브시 처리 근데 안됨 */
+.menulist li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+
+.menulist li a.on {
+    background: rgb(204, 21, 21);
+    color: #fff;
+}
+
+.menulist li a.on:hover {
+    color :#fff;
+}
+
+.menulist li.on {
+    background: rgb(204, 21, 21);
+    color: #fff;
+}
+
+
+.textField{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;    
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    background-color: rgba(0,0,0,0);
+
+    transition-duration: 0.2s;
+}
+
+.thumbnail:hover .textField{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgba(132, 103, 103, 0.368);
+}
+
+
+
+/*타입 메뉴 안*/
+.row
+{
+    width: 1420px;
+    display: flex;
+    /*margin: auto;*/
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.row2
+{
+    width: 1420px;
+    display: flex;
+    /*margin: auto;*/
+    padding: 0px 0px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.row3{
+    width: 1420px;
+
+    /*margin: auto;*/
+    padding: 10px 20px; 
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.col-1{
+    width: 100%; 
+    padding: 50px 0px;
+    margin-top: 100px;}
+.col-2{width: 100%; padding: 0px 0px;}
+.col-3{
+    width: 100%; 
+    padding: 20px 50px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content : center;
+}
+.col-4{
+    width: 100%; 
+    padding: 0px 0px; 
+    display: flex; 
+    flex-direction: column; 
+    /* justify-content : center; */
+}
+.col-5{width: 100%; padding: 0px 0px; margin-bottom: 100px;}
+.col-6{
+    /*width: 100%; */
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+
+    width: 250px;
+    height: 161px;
+}
+
+.h400{height: 700px;}
+
+.absBox1{position: absolute; width: 680px; }
+.absBox2{
+    position: absolute; 
+    left: 600px;
+    margin-top: 30px;
+    width: 180px; 
+    height: 200px;
+    border-top: 1px solid #fff;
+    }
+.absBox3{position: absolute; width: 565px; left: 855px;}
+
+
+.h500 {
+    height: 700px;
+    /* position: relative; */
+}
+
+
+.absBox6{position: absolute; width: 680px; margin-top: 20px; }
+.absBox5{
+    position: absolute; 
+    left: 600px;
+    margin-top: 40px;
+    width: 180px; 
+    height: 200px;
+    border-top: 1px solid #fff;
+    }
+.absBox4{position: absolute; width: 565px; left: 718px;}
+
+
+.subti {
+    /*background-color: rgb(204, 21, 21);*/
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 1420px;
+    height: 50px;
+    margin: 5px;
+    justify-content:center;
+
+
+}
+
+/*html 글자적용*/
+
+.text-mainTitle{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.text-subTitle{
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+.text-title{
+    font-size: 20px; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-main{
+    font-size: 64px; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 130px;
+}
+
+.text-clim{
+    margin-top: 150px;
+    font-size: 32px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-clim2{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.text-kind{
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+    
+.text-menu{
+    font-size: 1.8rem; 
+    font-weight: 500;
+}
+
+.text-normal{
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 2.2rem;  /*줄간격*/
+    /* margin-top: 10px; */
+}
+
+.text-ti{
+    font-size:60pt; 
+    font-weight: 500;
+    line-height: 7rem;
+}
+
+.text-bs{
+    font-size: 24pt;
+    font-weight: 500;
+    /* margin: 20px 100px; */
+}
+
+.text-foot{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-rism{
+    font-size: 24px;
+}
+
+.text-ribig{
+    font-size: 32px;
+}
+
+.text-white{color: white;}
+.text-red{color: rgba(173,37,26);}
+.text-grey{color: rgb(163, 163, 163);}
+.text-dgr{color: rgb(30, 30, 30);}
+.text-lgrey{color: rgb(160, 160, 160);}
+
+
+.text-center{text-align: center;}
+.right-align {
+    text-align: right;
+    margin-right: -75px;
+}
+.left-align{
+    text-align: left;
+    margin-left: -40px;
+}
+
+.right-align2{
+    text-align: right;
+    margin-right: 190px;
+}
+
+
+.text-big{
+    font-size: 128px;
+    font-weight: bold;
+    line-height: 150px;
+}
+
+.text-bred{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+
+.text-small{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+
+
+
+.center {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.circle {
+fill: red; /* 원의 내부 색상 */
+stroke: black; /* 테두리 색상 */
+stroke-width: 2; /* 테두리 두께 */
+}
+
+
+.circle2 {
+    fill: rgb(255, 255, 255); /* 원의 내부 색상 */
+    stroke: black; /* 테두리 색상 */
+    stroke-width: 2; /* 테두리 두께 */
+    }
+
+
+.help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 300px;
+}
