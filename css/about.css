@@ -28,6 +28,7 @@
 .swiper-slide .txt-box {
     display: none;
     font-size: 28px;
+    font-weight: 500px;
     position: absolute;
     bottom: -26px;
     left: 50%;
