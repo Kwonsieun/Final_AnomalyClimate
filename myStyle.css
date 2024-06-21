@@ -179,7 +179,7 @@ section {
     height: 43px;
     background-size: 43px 43px;
     position: absolute;
-    right: 20;
+    right: 20px;
 }
 
 .swiper-button-prev {
@@ -188,5 +188,5 @@ section {
     height: 43px;
     background-size: 43px 43px;
     position: absolute;
-    left: 20;
+    left: 20px;
 }
