@@ -1,0 +1,93 @@
+/* 스와이퍼 슬라이드 css */
+.slide-container {
+    position: relative;
+}
+
+.swiper {
+    margin: 0 auto;
+    width: 1260px;
+    padding: 50px 0 300px 0;
+}
+
+.swiper-slide {
+    background-color: transparent;    
+}
+
+.swiper-slide img {
+    margin: 0 auto;
+    display: flex;
+    width: 311px;
+    
+    transition: transform .4s;
+}
+
+.swiper-slide.swiper-slide-active img {
+    transform: scale(1.2);        
+}
+
+.swiper-slide .txt-box {
+    display: none;
+    font-size: 28px;
+    font-weight: 500px;
+    position: absolute;
+    bottom: -26px;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#fff;
+    /* 이미지 크기와 동일한 width값 설정 */
+    width: 410px;
+    text-align: center;
+}
+
+
+.swiper-slide .txt-box2 {
+    display: none;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#fff;
+    /* 이미지 크기와 동일한 width값 설정 */
+    width: 400px;
+    text-align: center;
+}
+
+.swiper-slide .txt-box p {
+    width: 100%;
+}
+
+.swiper-slide.swiper-slide-active .txt-box {
+    display: block;
+    bottom: -100px;
+}
+
+.swiper-slide.swiper-slide-active .txt-box2 {
+    display: block;
+    top: 530px;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content:'';    
+}
+
+.swiper-button-next {
+    background: url('../images/btn-next.png') no-repeat;
+    width: 43px;
+    height: 43px;
+    background-size: 43px 43px;
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+
+.swiper-button-prev {
+    background: url('../images/btn-prev.png');
+    width: 43px;
+    height: 43px;
+    background-size: 43px 43px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+}
+
