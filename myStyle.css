@@ -1,0 +1,192 @@
+
+
+section {
+    /* height: 110vh; */
+    width: 100%;
+
+}
+
+
+#AnomalyClimate{
+    background-color: rgb(0, 0, 0);
+    /* height: 250vh; */
+    overflow: hidden;
+}
+
+#Type {
+    background-color: rgb(0, 0, 0);
+    /* height: 250vh; */
+}
+
+#Character {
+    background-color: rgb(0, 0, 0);
+}
+
+#Store {
+    background-color: rgb(0, 0, 0);
+}
+
+#Help{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.anomalylogo{
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sectx{
+    margin-top: 150px;
+    padding: 150px 0px;;
+}
+
+
+
+
+
+
+/*여기서부터 image slide 부분*/
+/*
+#slider {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer {
+    width: 1420px;
+    height: 450px;
+    display: flex;
+    overflow: hidden;
+}
+
+#imageSlider {
+    width: 4260px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#interface {
+    width: 1420px;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leftArrow {
+    position: absolute;
+    margin-top: 95px;
+    left: 20px;
+    top: 120px;
+    cursor: pointer;
+}
+
+#rightArrow {
+    position: absolute;
+    margin-top: 95px;
+    right: 20px;
+    top: 120px;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+#bottomBtn {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+#bottomBtn button {
+    padding: 3px 16px;
+    border: 0;
+    background-color: rgb(149, 149, 149);
+}
+
+#bottomBtn button:hover {
+    padding: 3px 16px;
+    border: 0;
+    background-color: rgba(72, 72, 72);
+}
+*/
+
+
+/*사진 썸네일*/
+
+.thumbs{
+    display: flex;
+
+    /* justify-content: space-between; */
+    margin: 20px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+.thumbnail{
+    position : relative;
+    width: 397px;
+    height: 227px;
+    /*background-color: rgb(204, 21, 21);*/
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.img{
+    width: 397px;
+    height: 227px;
+    background-color: rgba(0,0,0,15)
+}
+
+.imageTag{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    mix-blend-mode: luminosity;
+
+}
+
+.imageTag.on{
+    mix-blend-mode: normal;
+}
+
+/* 슬라이드 css */
+
+.slide-container {
+    position: relative;
+    margin-top: 50px;
+}
+
+.swiper {
+    margin: 0 auto;
+    width: 1420px;    
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content:'';    
+}
+
+.swiper-button-next {
+    background: url('/images/btn-next.png') no-repeat;
+    width: 43px;
+    height: 43px;
+    background-size: 43px 43px;
+    position: absolute;
+    right: 20;
+}
+
+.swiper-button-prev {
+    background: url('/images/btn-prev.png');
+    width: 43px;
+    height: 43px;
+    background-size: 43px 43px;
+    position: absolute;
+    left: 20;
+}
