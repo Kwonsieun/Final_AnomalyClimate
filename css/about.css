@@ -72,7 +72,7 @@
 }
 
 .swiper-button-next {
-    background: url('../../images/btn-next.png') no-repeat;
+    background: url('../images/btn-next.png') no-repeat;
     width: 43px;
     height: 43px;
     background-size: 43px 43px;
@@ -82,7 +82,7 @@
 }
 
 .swiper-button-prev {
-    background: url('../../images/btn-prev.png');
+    background: url('../images/btn-prev.png');
     width: 43px;
     height: 43px;
     background-size: 43px 43px;
